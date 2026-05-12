@@ -14,10 +14,12 @@ Navigation was, structurally, very simple. The cards in a stack were in an order
 
 The scripting language was HyperTalk, designed by Dan Winkler. HyperTalk is the unsung breakthrough of HyperCard. It was an English-like language in which the typical statement reads almost as a sentence. A button might contain the script:
 
-    on mouseUp
-      go to card "Index"
-      put "Welcome" into field "Title"
-    end mouseUp
+```text
+on mouseUp
+  go to card "Index"
+  put "Welcome" into field "Title"
+end mouseUp
+```
 
 This is, in HyperTalk, a complete program. The verb-object syntax is consistent: you `put` things into fields, you `get` things out of them, you `go to` cards, you `play` sounds, you `show` and `hide` objects. The grammar is forgiving of variations. The vocabulary is small. The language has variables, conditionals, loops, and the ability to define your own commands and functions — it is a real programming language — but its surface looks like English instructions, and its error messages are mostly comprehensible to non-programmers.
 
