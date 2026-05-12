@@ -3,7 +3,6 @@ title = "What We Lost When The Web Won"
 description = "Hypermedia and the early internet before the web flattened both. Xanadu, HyperCard, NLS, Gopher, Usenet, Plan 9 — what they were, why they lost, what their loss cost us, and what's being recovered."
 authors = ["CloudStreet"]
 language = "en"
-multilingual = false
 src = "src"
 
 [output.html]
