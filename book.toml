@@ -9,7 +9,6 @@ src = "src"
 default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/cloudstreet-dev/What-We-Lost-When-The-Web-Won"
-git-repository-icon = "fa-github"
 
 [output.html.search]
 enable = true
